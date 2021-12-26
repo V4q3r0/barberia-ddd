@@ -1,0 +1,13 @@
+co\com\sofka\usecase\aplicado\ActualizarEdadClienteUseCaseTest.class
+co\com\sofka\usecase\aplicado\ActualizarTelefonoClienteUseCaseTest.class
+co\com\sofka\usecase\aplicado\ActualizarEdadEstilistaUseCaseTest.class
+co\com\sofka\usecase\aplicado\CambiarEstilistaUseCaseTest.class
+co\com\sofka\usecase\aplicado\ActualizarEstadoProductoUseCaseTest.class
+co\com\sofka\usecase\aplicado\CrearAplicadoUseCaseTest.class
+co\com\sofka\usecase\aplicado\ActualizarNombreEstilistaUseCaseTest.class
+co\com\sofka\usecase\aplicado\ActualizarTelefonoEstilistaUseCaseTest.class
+co\com\sofka\usecase\aplicado\ActualizarCaracteristicasProductoUseCaseTest.class
+co\com\sofka\usecase\aplicado\ActualizarDuracionAplicadoUseCaseTest.class
+co\com\sofka\usecase\aplicado\AgregarProductoUseCaseTest.class
+co\com\sofka\usecase\aplicado\ActualizarNombreClienteUseCaseTest.class
+co\com\sofka\usecase\aplicado\CambiarClienteUseCaseTest.class
