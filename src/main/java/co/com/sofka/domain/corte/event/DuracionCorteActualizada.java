@@ -1,6 +1,5 @@
 package co.com.sofka.domain.corte.event;
 
-import co.com.sofka.domain.corte.value.CorteId;
 import co.com.sofka.domain.generic.DomainEvent;
 import co.com.sofka.domain.generic.values.Duracion;
 

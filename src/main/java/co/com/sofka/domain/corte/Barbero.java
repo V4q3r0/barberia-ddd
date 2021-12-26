@@ -15,7 +15,7 @@ public class Barbero extends Entity<BarberoId> {
     }
 
     public void actualizarDatosPersonales(DatosPersonales datosPersonales){
-        this.datosPersonales = datosPersonales;
+        this.datosPersonales = Objects.requireNonNull(datosPersonales);
     }
 
     public DatosPersonales datosPersonales() {

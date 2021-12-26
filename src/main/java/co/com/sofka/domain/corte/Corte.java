@@ -8,6 +8,7 @@ import co.com.sofka.domain.generic.DomainEvent;
 import co.com.sofka.domain.generic.caracteristicas.*;
 import co.com.sofka.domain.generic.datos.*;
 import co.com.sofka.domain.generic.values.*;
+import co.com.sofka.domain.lavado.event.EdadAsistenteActualizada;
 
 import java.util.List;
 import java.util.Objects;
@@ -28,7 +29,7 @@ public class Corte extends AggregateEvent<CorteId> {
         Objects.requireNonNull(barbero);
         Objects.requireNonNull(cliente);
         Objects.requireNonNull(duracion);
-        appendChange(new CorteCreado(barbero, cliente, duracion));
+        appendChange(new CorteCreado(barbero, cliente, duracion)).apply();
     }
 
     public Corte(CorteId corteId){
