@@ -70,7 +70,7 @@ class ActualizarEdadClienteUseCaseTest {
         usecase.addRepository(repository);
 
         //act
-        var message =   Assertions.assertThrows(BusinessException.class, () -> {
+        var message = Assertions.assertThrows(BusinessException.class, () -> {
             UseCaseHandler.getInstance()
                     .setIdentifyExecutor(aplicado.identity().value())
                     .syncExecutor(usecase, new RequestCommand<>(command))

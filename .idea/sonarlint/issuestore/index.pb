@@ -183,8 +183,6 @@ Ysrc/main/java/co/com/sofka/domain/aplicado/command/ActualizarDuracionAplicadoCo
 `src/main/java/co/com/sofka/domain/aplicado/command/ActualizarCaracteristicasProductoCommand.java,5\3\53cfbaff392bdc7d9c0071919c3f0cb4e084d501
 Ñ
 Tsrc/main/java/co/com/sofka/domain/aplicado/command/ActualizarEdadClienteCommand.java,d\f\df8c4de770392e53fef8a1878742448c81ed3811
-â
-Ysrc/main/java/co/com/sofka/usecase/aplicado/ActualizarCaracteristicasProductoUseCase.java,6\7\67f3911efc259bbba8ae6de692e19d3dfbb3c947
 n
 >src/main/java/co/com/sofka/domain/generic/values/Duracion.java,d\0\d04d87675ec6c598b5cdb141b454229760be28dd
 k
@@ -193,8 +191,6 @@ k
 Vsrc/main/java/co/com/sofka/domain/aplicado/command/ActualizarNombreClienteCommand.java,a\e\aeb267511384a6d005cbfc8592d194bffeb35edc
 Ä
 Psrc/main/java/co/com/sofka/usecase/aplicado/ActualizarEstadoProductoUseCase.java,7\7\778c0c09868cc81dec682f5519aa8e65e2e19506
-Ü
-Vsrc/test/java/co/com/sofka/usecase/aplicado/ActualizarDuracionAplicadoUseCaseTest.java,d\0\d0ea1846596b5cde60238fc1558f8894a6c72196
 
 Osrc/main/java/co/com/sofka/usecase/aplicado/ActualizarNombreClienteUseCase.java,c\8\c84a8defc795f6f1c8c891e7cc8981db08cf0122
 Å
@@ -223,10 +219,6 @@ z
 Jsrc/test/java/co/com/sofka/usecase/aplicado/CambiarClienteUseCaseTest.java,7\f\7f7d1044af0150970b923dec98ff471384526f63
 |
 Lsrc/test/java/co/com/sofka/usecase/aplicado/CambiarEstilistaUseCaseTest.java,c\c\cc9c66406ba6effb4edca97b644ea82685a38345
-y
-Isrc/test/java/co/com/sofka/usecase/aplicado/CrearAplicadoUseCaseTest.java,0\b\0bb485b67fa5c928aa24b0cf54c850957b00cb15
-u
-Esrc/main/java/co/com/sofka/usecase/aplicado/CrearAplicadoUseCase.java,5\5\55c429d4f0c417298c22d2171a67af0370b07b98
 ã
 [src/main/java/co/com/sofka/domain/corte/command/ActualizarCaracteristicasEstiloCommand.java,4\3\439303af152adeb4d11c0d3b6f296a2d28548ba3
 r
@@ -243,10 +235,6 @@ Isrc/main/java/co/com/sofka/domain/corte/command/AsignarEstiloCommand.java,9\6\
 Wsrc/main/java/co/com/sofka/domain/corte/event/CaracteristicasImplementoActualizado.java,e\b\eb2b90cceda0cd06c46c86abb2408e9b04218a55
 è
 _src/main/java/co/com/sofka/domain/corte/command/ActualizarCaracteristicasImplementoCommand.java,4\c\4c4312da5bd1c7f8f238df8bbcf0e6da1f982550
-ç
-]src/test/java/co/com/sofka/usecase/aplicado/ActualizarCaracteristicasProductoUseCaseTest.java,e\5\e52e0ca02b4bf5b098df16d63fbf139eca73d786
-Ñ
-Tsrc/main/java/co/com/sofka/usecase/corte/ActualizarCaracteristicasEstiloUseCase.java,f\a\fad0cc9edc6e53e3a1c39282b8405dcfbe0d7bf3
 g
 7src/main/java/co/com/sofka/domain/corte/Implemento.java,4\d\4dc752412a386da7da1182219af9c345dd78e357
 à
@@ -255,10 +243,6 @@ Xsrc/main/java/co/com/sofka/usecase/corte/ActualizarCaracteristicasImplementoUse
 Nsrc/main/java/co/com/sofka/domain/aplicado/event/EdadEstilistaActualizada.java,9\6\96daec19cc3b6cb9c03f1e65b992f98b8019b169
 |
 Lsrc/main/java/co/com/sofka/domain/aplicado/event/EdadClienteActualizada.java,2\4\24ee2ce4fd5d01fac87fc2debcbdfc9a4ead2fb8
-}
-Msrc/main/java/co/com/sofka/usecase/aplicado/ActualizarEdadClienteUseCase.java,f\7\f7d2724390bfa0e7845d79e1067a7fb7fda38af2
-z
-Jsrc/main/java/co/com/sofka/usecase/corte/ActualizarEdadClienteUseCase.java,3\1\31cad6d53200b81f04da5fc19267f9b4b1c5f0c0
 å
 \src/test/java/co/com/sofka/usecase/corte/ActualizarCaracteristicasImplementoUseCaseTest.java,7\4\7406312cb56b73cd1aadd4b6c1d9992337d2ea90
 
@@ -279,8 +263,6 @@ y
 Isrc/main/java/co/com/sofka/domain/corte/event/EdadClienteActualizada.java,3\2\326a0d6791832ffb5d1db73a31d60cc9cd93736c
 Ä
 Psrc/test/java/co/com/sofka/usecase/corte/ActualizarNombreBarberoUseCaseTest.java,9\3\935dba096edd173b0df7a7903f8973787a808c14
-z
-Jsrc/main/java/co/com/sofka/usecase/corte/ActualizarEdadBarberoUseCase.java,3\b\3b9209304e338416386d649009cae2818b634c86
 |
 Lsrc/main/java/co/com/sofka/usecase/corte/ActualizarNombreClienteUseCase.java,b\c\bca916a49ca1a5c8f1f10a23b4c5d95a4936d03b
 Ä
