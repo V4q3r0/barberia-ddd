@@ -8,6 +8,9 @@ public final class Edad implements ValueObject<Integer> {
     private final Integer value;
 
     public Edad(Integer value){
+        if(value <= 0){
+            throw new IllegalArgumentException("La edad debe ser mayor a 0.");
+        }
         this.value = Objects.requireNonNull(value);
     }
 
