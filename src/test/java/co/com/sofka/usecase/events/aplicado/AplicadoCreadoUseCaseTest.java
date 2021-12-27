@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 
 class AplicadoCreadoUseCaseTest {
 
-    /*@Test
+    @Test
     void aplicadoCreado(){
             //arrange
             AplicadoId aplicadoId = AplicadoId.of("Apli01");
@@ -36,7 +36,7 @@ class AplicadoCreadoUseCaseTest {
                             new Edad(25)
                     )
             );
-            Duracion duracion = new Duracion("4 hora");
+            Duracion duracion = new Duracion("4 horas");
             var event = new AplicadoCreado(estilista, cliente, duracion);
             event.setAggregateRootId(aplicadoId.value());
             var usecase = new AplicadoCreadoUseCase();
@@ -44,11 +44,13 @@ class AplicadoCreadoUseCaseTest {
             //act
             var events = UseCaseHandler.getInstance()
                     .syncExecutor(usecase, new TriggeredEvent<>(event))
-                    .orElseThrow()
-                    .getDomainEvents().get(0);
+                    .orElseThrow();
 
             //asserts
-            //Assertions.assertEquals("Iniciado", );
-
-    }*/
+            var datos = (AplicadoCreado) events.getDomainEvents().get(0);
+            Assertions.assertEquals("Apli01", datos.aggregateRootId());
+            Assertions.assertEquals("Esti01", datos.getEstilista().identity().value());
+            Assertions.assertEquals("Cli01", datos.getCliente().identity().value());
+            Assertions.assertEquals("4 horas", datos.getDuracion().value());
+    }
 }

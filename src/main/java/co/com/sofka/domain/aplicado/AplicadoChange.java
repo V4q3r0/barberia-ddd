@@ -103,9 +103,5 @@ public class AplicadoChange extends EventChange {
             );
             aplicado.estilista.actualizarDatosPersonales(datosPersonales);
         });
-
-        apply((EstadoCambiado event) -> {
-            aplicado.estado = event.getEstado();
-        });
     }
 }

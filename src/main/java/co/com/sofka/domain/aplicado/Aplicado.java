@@ -20,7 +20,6 @@ public class Aplicado extends AggregateEvent<AplicadoId> {
     protected Estilista estilista;
     protected Duracion duracion;
     protected Cliente cliente;
-    protected Estado estado;
 
     public Aplicado(AplicadoId aplicadoId, Estilista estilista, Cliente cliente, Duracion duracion){
         super(aplicadoId);
@@ -103,11 +102,6 @@ public class Aplicado extends AggregateEvent<AplicadoId> {
     public void actualizarTelefonoEstilista(Telefono telefono){
         Objects.requireNonNull(telefono);
         appendChange(new TelefonoEstilistaActualizado(telefono)).apply();
-    }
-
-    public void cambiarEstado(Estado estado){
-        Objects.requireNonNull(estado);
-        appendChange(new EstadoCambiado(estado)).apply();
     }
 
     public Optional<Producto> getProductoById(ProductoId productoId){
