@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 
 class AplicadoCreadoUseCaseTest {
 
-    @Test
+    /*@Test
     void aplicadoCreado(){
             //arrange
             AplicadoId aplicadoId = AplicadoId.of("Apli01");
@@ -50,5 +50,5 @@ class AplicadoCreadoUseCaseTest {
             //asserts
             //Assertions.assertEquals("Iniciado", );
 
-    }
+    }*/
 }
